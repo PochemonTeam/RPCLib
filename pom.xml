@@ -9,7 +9,7 @@
 	<name>rpclib</name>
 	<description>RPCLib</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<protobuf.version>3.14.0</protobuf.version>
 		<protobuf-plugin.version>0.6.1</protobuf-plugin.version>
 		<grpc.version>1.35.0</grpc.version>
