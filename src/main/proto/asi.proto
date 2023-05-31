@@ -17,7 +17,7 @@ message Info {
 
 	string date = 1;
 	
-	int32 userId = 2;
+	string username = 2;
 	
 }
 	
