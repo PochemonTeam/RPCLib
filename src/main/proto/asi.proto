@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "pochemon.auth.log";
+option java_outer_classname = "AuthLogRPC";
+option objc_class_prefix = "ALRPC";
+
+package pochemon.auth.log;
+
+service LogService {
+	
+	rpc LogAuth(Info) returns (Saved) {}
+
+}
+
+message Info {
+
+	string date = 1;
+	
+	int32 userId = 2;
+	
+}
+	
+message Saved {
+    
+    bool validation = 1;
+	
+}
