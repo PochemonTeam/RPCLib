@@ -19,6 +19,8 @@ message Info {
 	
 	string username = 2;
 	
+	bool success = 3;
+	
 }
 	
 message Saved {
